@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useRef } from 'react';
-import { useTheme } from '@emotion/react';
+import { css, useTheme } from '@emotion/react';
 import styled from '@emotion/styled';
 import { getTrimPriceDistribution } from '@/apis/trim';
 import { Flex, Loading } from '@/components/common';
@@ -68,7 +68,14 @@ function PriceGraph() {
           <Loading />
         ) : (
           <Fragment>
-            <svg ref={svgRef} xmlns='http://www.w3.org/2000/svg' width='100%' transform='scale(1, -1)'>
+            <svg
+              css={css`
+                transform: scale(1, -1);
+              `}
+              ref={svgRef}
+              xmlns='http://www.w3.org/2000/svg'
+              width='100%'
+            >
               <path ref={pathRef} fill='none' stroke={colors.gray200} strokeWidth='4' />
             </svg>
             <Circle ref={markerRef} />
@@ -110,6 +117,7 @@ const PriceContainer = styled(Flex)`
 `;
 
 const Circle = styled.div`
+  ${({ theme }) => theme.typography.HeadKRMedium14}
   position: absolute;
   width: 22px;
   height: 22px;
