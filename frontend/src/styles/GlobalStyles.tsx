@@ -175,7 +175,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Head Bold'),
-      src('/fonts/HyundaiSansHead-Bold.woff2') format('woff2');
+      url('/fonts/HyundaiSansHead-Bold.woff2') format('woff2');
   }
 
   @font-face {
@@ -185,7 +185,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Head Medium'),
-      src('/fonts/HyundaiSansHead-Medium.woff2') format('woff2');
+      url('/fonts/HyundaiSansHead-Medium.woff2') format('woff2');
   }
 
   @font-face {
@@ -195,7 +195,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Head KR Bold'),
-      src('/fonts/HyundaiSansHeadKRBold.woff2') format('woff2');
+      url('/fonts/HyundaiSansHeadKRBold.woff2') format('woff2');
   }
 
   @font-face {
@@ -205,7 +205,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Head KR Medium'),
-      src('/fonts/HyundaiSansHeadKRMedium.woff2') format('woff2');
+      url('/fonts/HyundaiSansHeadKRMedium.woff2') format('woff2');
   }
 
   @font-face {
@@ -215,7 +215,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Head KR Regular'),
-      src('/fonts/HyundaiSansHeadKRRegular.woff2') format('woff2');
+      url('/fonts/HyundaiSansHeadKRRegular.woff2') format('woff2');
   }
 
   @font-face {
@@ -225,7 +225,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Text Medium'),
-      src('/fonts/HyundaiSansText-Medium.woff2') format('woff2');
+      url('/fonts/HyundaiSansText-Medium.woff2') format('woff2');
   }
 
   @font-face {
@@ -235,7 +235,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Text KR Bold'),
-      src('/fonts/HyundaiSansTextKRBold.woff2') format('woff2');
+      url('/fonts/HyundaiSansTextKRBold.woff2') format('woff2');
   }
 
   @font-face {
@@ -245,7 +245,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Text KR Medium'),
-      src('/fonts/HyundaiSansTextKRMedium.woff2') format('woff2');
+      url('/fonts/HyundaiSansTextKRMedium.woff2') format('woff2');
   }
 
   @font-face {
@@ -255,7 +255,7 @@ const globalCSS = css`
     font-display: swap;
     src:
       local('Hyundai Sans Text KR Regular'),
-      src('/fonts/HyundaiSansTextKRRegular.woff2') format('woff2');
+      url('/fonts/HyundaiSansTextKRRegular.woff2') format('woff2');
   }
 
   ${resetCSS}
