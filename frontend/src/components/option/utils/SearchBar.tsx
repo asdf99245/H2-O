@@ -99,6 +99,7 @@ const StyledInput = styled.input`
   width: 300px;
   height: 24px;
   border: none;
+  user-select: text;
 
   &::placeholder {
     color: ${({ theme }) => theme.colors.gray600};
