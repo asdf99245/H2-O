@@ -19,7 +19,7 @@ function TrimSelector({ trimList, selectedTrimId, onSelectTrim }: Props) {
 
   return (
     <MainSelector title='트림을 선택해주세요'>
-      <Flex gap={16} width='100%'>
+      <Flex as='ul' gap={16} width='100%'>
         {trimList.map((trim) => {
           const { id, name, images, ...rest } = trim;
           return (
